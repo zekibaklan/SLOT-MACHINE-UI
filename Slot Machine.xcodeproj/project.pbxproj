@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B00B1B22AB9E47E00ACF520 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00B1B12AB9E47E00ACF520 /* ReelView.swift */; };
+		5B94AEF52ABAF74700EC42E5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94AEF42ABAF74700EC42E5 /* InfoView.swift */; };
 		5B94EBFC2AB8442600DF52CB /* Slot_MachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94EBFB2AB8442600DF52CB /* Slot_MachineApp.swift */; };
 		5B94EBFE2AB8442600DF52CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94EBFD2AB8442600DF52CB /* ContentView.swift */; };
 		5B94EC002AB8442700DF52CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B94EBFF2AB8442700DF52CB /* Assets.xcassets */; };
@@ -20,9 +22,14 @@
 		5B94EC172AB845DE00DF52CB /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B94EC0F2AB845DE00DF52CB /* game-over.mp3 */; };
 		5B94EC182AB845DE00DF52CB /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B94EC102AB845DE00DF52CB /* win.mp3 */; };
 		5B94EC1D2AB846A700DF52CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B94EC1C2AB846A700DF52CB /* Launch Screen.storyboard */; };
+		5B94EC1F2AB84DB300DF52CB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94EC1E2AB84DB300DF52CB /* LogoView.swift */; };
+		5B94EC212AB854B500DF52CB /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94EC202AB854B500DF52CB /* Modifier.swift */; };
+		5B94EC232AB858D700DF52CB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94EC222AB858D700DF52CB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B00B1B12AB9E47E00ACF520 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		5B94AEF42ABAF74700EC42E5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		5B94EBF82AB8442600DF52CB /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B94EBFB2AB8442600DF52CB /* Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot_MachineApp.swift; sourceTree = "<group>"; };
 		5B94EBFD2AB8442600DF52CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +44,9 @@
 		5B94EC0F2AB845DE00DF52CB /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
 		5B94EC102AB845DE00DF52CB /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		5B94EC1C2AB846A700DF52CB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5B94EC1E2AB84DB300DF52CB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		5B94EC202AB854B500DF52CB /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		5B94EC222AB858D700DF52CB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 				5B94EC1A2AB8461300DF52CB /* View */,
 				5B94EC1B2AB8462300DF52CB /* Helpers */,
 				5B94EBFB2AB8442600DF52CB /* Slot_MachineApp.swift */,
+				5B94EC1C2AB846A700DF52CB /* Launch Screen.storyboard */,
 				5B94EBFF2AB8442700DF52CB /* Assets.xcassets */,
 				5B94EC012AB8442700DF52CB /* Preview Content */,
 			);
@@ -106,7 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				5B94EBFD2AB8442600DF52CB /* ContentView.swift */,
-				5B94EC1C2AB846A700DF52CB /* Launch Screen.storyboard */,
+				5B94EC1E2AB84DB300DF52CB /* LogoView.swift */,
+				5B00B1B12AB9E47E00ACF520 /* ReelView.swift */,
+				5B94AEF42ABAF74700EC42E5 /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,6 +127,8 @@
 		5B94EC1B2AB8462300DF52CB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5B94EC202AB854B500DF52CB /* Modifier.swift */,
+				5B94EC222AB858D700DF52CB /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -146,7 +161,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					5B94EBF72AB8442600DF52CB = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -197,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B00B1B22AB9E47E00ACF520 /* ReelView.swift in Sources */,
+				5B94EC232AB858D700DF52CB /* Extensions.swift in Sources */,
+				5B94EC212AB854B500DF52CB /* Modifier.swift in Sources */,
 				5B94EBFE2AB8442600DF52CB /* ContentView.swift in Sources */,
+				5B94EC1F2AB84DB300DF52CB /* LogoView.swift in Sources */,
 				5B94EBFC2AB8442600DF52CB /* Slot_MachineApp.swift in Sources */,
+				5B94AEF52ABAF74700EC42E5 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +261,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -301,6 +322,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
